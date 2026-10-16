@@ -1,0 +1,12 @@
+{
+  "name": "big-pharma-sim",
+  "version": "1.0.0",
+  "description": "Simulador da indústria farmacêutica: pesquisa, ensaios clínicos, agências reguladoras, patentes, preços e mercado.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.js",
+    "balance": "node scripts/balance.mjs"
+  }
+}
